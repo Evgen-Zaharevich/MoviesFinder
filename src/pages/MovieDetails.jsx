@@ -40,7 +40,7 @@ const MovieDetails = () => {
   return (
     <>
       <Section>
-        <StyledLink to={location.state.from}>Go back</StyledLink>
+        <StyledLink to={location.state?.from || '/movies'}>Go back</StyledLink>
         <Image
           src={
             poster_path === null || undefined
