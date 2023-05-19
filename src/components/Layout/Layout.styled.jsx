@@ -20,7 +20,6 @@ export const StyledLink = styled(NavLink)`
   border-radius: 5px;
   border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
   border-image-slice: 1;
-  /* margin-left: 7px; */
   margin-right: 16px;
   margin-bottom: 5px;
   text-transform: uppercase;

@@ -28,7 +28,6 @@ export const Button = styled.button`
   border-image-slice: 1;
   margin-right: 16px;
   margin-bottom: 5px;
-  /* text-transform: uppercase; */
   overflow: hidden;
   letter-spacing: 2px;
   transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
